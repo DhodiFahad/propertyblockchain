@@ -1,0 +1,420 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,800;1,900&display=swap");
+.auth-page {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+}
+
+.auth-page .div-1 {
+  width: 50%;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border-right: 1px solid rgba(9, 9, 184, 0.145);
+  background: rgba(9, 9, 184, 0.076);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.auth-page .div-1 .heading {
+  text-align: center;
+  font-weight: 100;
+  text-transform: uppercase;
+  color: #0909b8;
+}
+
+.auth-page .div-1 .landing-img {
+  width: 70%;
+  margin-top: 30px;
+}
+
+.auth-page .div-2 {
+  width: 50%;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.auth-page .div-2 .heading {
+  text-transform: uppercase;
+  font-weight: 200;
+  text-align: center;
+  color: #0909b8;
+}
+
+.auth-page .div-2 form h1 {
+  color: #0909b8;
+}
+
+.auth-page .div-2 form .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.auth-page .div-2 form .row .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 30px;
+}
+
+.auth-page .div-2 form .row .input label {
+  text-transform: uppercase;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.auth-page .div-2 form .row .input input, .auth-page .div-2 form .row .input select {
+  padding: 10px;
+  outline: none;
+  border-radius: 0px;
+  border: 1px solid #0909b8;
+}
+
+.auth-page .div-2 form .btn {
+  width: 100px;
+  padding: 10px 0px;
+  text-transform: uppercase;
+  border: 1px solid #0909b8;
+  color: #ffffff;
+  background: #0909b8;
+  cursor: pointer;
+  outline: none;
+}
+
+.appbar {
+  background: rgba(9, 9, 184, 0.686);
+  padding: 10px 30px;
+  color: #ffffff;
+  -webkit-box-shadow: 0px 2px 7px 3px rgba(105, 60, 230, 0.4);
+          box-shadow: 0px 2px 7px 3px rgba(105, 60, 230, 0.4);
+}
+
+.appbar .typo {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.sidebar {
+  width: 15%;
+  height: 100vh;
+  background: rgba(9, 9, 184, 0.076);
+  padding: 10px 10px;
+}
+
+.sidebar a {
+  color: #000000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0px;
+}
+
+.sidebar a .icon {
+  padding: 0px 10px 0px 0px;
+  font-size: 24px;
+  color: blue;
+}
+
+.sidebar a span {
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.sidebar :hover {
+  background: #ffffff;
+}
+
+.dashboard {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+  padding-top: 50px;
+}
+
+.dashboard .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 60%;
+}
+
+.dashboard .row a {
+  text-decoration: none;
+}
+
+.dashboard .row .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: rgba(9, 9, 184, 0.076);
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 6px 2px rgba(128, 128, 128, 0.391);
+          box-shadow: 5px 5px 6px 2px rgba(128, 128, 128, 0.391);
+  margin: 0px 20px;
+  cursor: pointer;
+}
+
+.dashboard .row .item .icon-section {
+  background: #ffffff;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  border-radius: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.dashboard .row .item .icon-section .icon {
+  font-size: 20px;
+  color: #0909b8;
+}
+
+.dashboard .row .item .typo {
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+  text-transform: uppercase;
+}
+
+.title {
+  width: 100%;
+  height: 100vh;
+}
+
+.title .titlesTable {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.title .titlesTable td, .title .titlesTable th {
+  border: none;
+  padding: 10px;
+}
+
+.title .titlesTable tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.title .titlesTable tr:hover {
+  background-color: #ddd;
+}
+
+.title .titlesTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 16px;
+  text-align: left;
+  background-color: rgba(9, 9, 184, 0.686);
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title .titlesTable td {
+  cursor: pointer;
+}
+
+.transfer-wrapper {
+  text-align: center;
+}
+
+.transfer-wrapper h1 {
+  text-transform: uppercase;
+  font-size: 18px;
+  padding: 20px;
+}
+
+.transfer-wrapper .downloadlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.transfer-wrapper .downloadlinks .link {
+  margin: 10px 20px;
+  background: rgba(9, 9, 184, 0.076);
+  padding: 10px;
+}
+
+.transfer-wrapper .notice {
+  text-align: start;
+}
+
+.transfer-wrapper .uploadlinks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.transfer-wrapper .uploadlinks .link {
+  margin: 10px 20px;
+}
+
+.transfer-wrapper .submit {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  padding: 20px 0px;
+}
+
+.transfer-wrapper .submit .submit-btn {
+  width: 80%;
+}
+
+.title-details .span1 {
+  font-size: 24px;
+  text-transform: uppercase;
+  margin: 50px 0px;
+  color: blue;
+}
+
+.title-details h1 {
+  font-size: 16px;
+  font-family: monospace;
+}
+
+.search-wrapper {
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+}
+
+.search-wrapper h3 {
+  margin-bottom: 50px;
+  font-size: 28px;
+}
+
+.search-wrapper a {
+  margin: 0px 10px;
+  padding: 20px 40px;
+  background: blue;
+  color: white;
+  text-decoration: none;
+}
+
+.search-app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-app .span1 {
+  font-size: 28px;
+  margin: 20px 0px;
+}
+
+.search-app textarea {
+  height: 100px;
+  width: 500px;
+  margin: 20px 0px;
+}
+
+.search-app .input {
+  width: 500px;
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.search-app .input input {
+  padding: 10px;
+}
+
+.search-app select {
+  padding: 10px;
+  margin: 20px 0px;
+}
+
+.search-app button {
+  font-size: 18px;
+  height: 50px;
+}
+/*# sourceMappingURL=styles.css.map */
